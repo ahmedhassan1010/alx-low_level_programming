@@ -2,8 +2,10 @@
 
 /**
  * _islower: checks for lowercase character
- *
- * Return: Always 0 (Success)
+ * @c: an input character
+ * Description: function uses _putchar to print
+ * alphabet in lowercase 10 times
+ * Return: 1 if is lowercase and 0 if uppercase
  */
 
 int _islower(int c)
