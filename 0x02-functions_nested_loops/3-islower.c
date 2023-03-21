@@ -8,15 +8,14 @@
 
 int _islower(void)
 {
-	char r;
+	char ch;
+	int lower = 0;
 
-	if (islower(r))
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		_putchar('1');
+		if (ch == 'c')
+			lower = 1;
 	}
-	else
-		_putchar('0');
-	_putchar('\n');
 
-	return (0);
+	return (lower);
 }
