@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int _islower(void)
+int _islower(int c)
 {
 	char ch;
 	int lower = 0;
