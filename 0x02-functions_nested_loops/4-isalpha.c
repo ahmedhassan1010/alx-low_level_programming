@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _islower - checks if a character is lowercase
+ * _isalpha - checks if a character is alphabet
  * @c: the character to be checked
  *
  * Description: This function checks if the input character is an alpha
