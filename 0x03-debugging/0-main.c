@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main: test the function if the number is p or n
- * Return: return 0 always
+ * main - tests function that prints if integer is positive or negative
+ * Return: 0
  */
 
 int main(void)
