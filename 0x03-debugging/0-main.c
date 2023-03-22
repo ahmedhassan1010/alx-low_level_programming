@@ -1,6 +1,7 @@
 #include "main.h"
+
 /**
- * main: is the entry point and test the function if the number is p or n
+ * main: test the function if the number is p or n
  * Return: return 0 always
  */
 
