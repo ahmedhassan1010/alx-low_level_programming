@@ -1,15 +1,16 @@
-#include "main.h"
 #include <stdio.h>
+
 /**
- * main: the entry point of this program.
- * Description: this program will print fizz and buzz and fizzbuzz.
- * Return: (0) if successful
+ * main - prints Buzz each numbers of 3 and 5.
+ * Return: Always 0.
  */
 int main(void)
 {
 	int n;
 
-	for (n = 1; n <= 100; n++)
+	n = 1;
+	printf("%d", n);
+	for (n = 2; n <= 100; n++)
 	{
 		if ((n % 3 == 0) && (n % 5 == 0))
 		{
@@ -29,6 +30,5 @@ int main(void)
 		}
 	}
 	printf("\n");
-
 	return (0);
 }
